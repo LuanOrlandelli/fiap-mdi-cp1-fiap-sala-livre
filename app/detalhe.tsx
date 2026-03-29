@@ -19,7 +19,7 @@ export default function DetalheScreen() {
 
   return (
     <View style={styles.container}>
-      <Image source={{ uri: sala.imagem }} style={styles.imagem} />
+      <Image source={sala.imagem} style={styles.imagem} />
 
       <Text style={styles.titulo}>{sala.nome}</Text>
       <Text style={styles.info}>Bloco: {sala.bloco}</Text>

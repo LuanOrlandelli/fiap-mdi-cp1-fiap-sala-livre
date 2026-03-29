@@ -7,7 +7,7 @@ export default function HomeScreen() {
   return (
     <View style={styles.container}>
       <Image
-        source={{ uri: 'https://upload.wikimedia.org/wikipedia/commons/7/70/FIAP_logo.png' }}
+        source={require('../assets/images/FIAP-LOGO.png')}
         style={styles.logo}
       />
 

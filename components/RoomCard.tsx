@@ -1,4 +1,4 @@
-import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Text, Image, TouchableOpacity, StyleSheet, ImageSourcePropType } from 'react-native';
 
 type Props = {
   room: {
@@ -8,7 +8,7 @@ type Props = {
     capacidade: number;
     periodo: string;
     disponivel: boolean;
-    imagem: string;
+    imagem: ImageSourcePropType;
   };
   onPress: () => void;
 };
@@ -16,7 +16,7 @@ type Props = {
 export default function RoomCard({ room, onPress }: Props) {
   return (
     <TouchableOpacity style={styles.card} onPress={onPress}>
-      <Image source={{ uri: room.imagem }} style={styles.imagem} />
+      <Image source={room.imagem} style={styles.imagem} />
 
       <View style={styles.conteudo}>
         <Text style={styles.nome}>{room.nome}</Text>

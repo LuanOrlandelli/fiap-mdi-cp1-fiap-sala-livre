@@ -6,7 +6,7 @@ export const rooms = [
     capacidade: 6,
     periodo: 'Manhã',
     disponivel: true,
-    imagem: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1200&auto=format&fit=crop',
+    imagem: require('../assets/images/Sala A101.png'),
   },
   {
     id: '2',
@@ -15,7 +15,7 @@ export const rooms = [
     capacidade: 10,
     periodo: 'Tarde',
     disponivel: true,
-    imagem: 'https://images.unsplash.com/photo-1497366412874-3415097a27e7?q=80&w=1200&auto=format&fit=crop',
+    imagem: require('../assets/images/Sala B204.png')
   },
   {
     id: '3',
@@ -24,7 +24,7 @@ export const rooms = [
     capacidade: 12,
     periodo: 'Noite',
     disponivel: false,
-    imagem: 'https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=1200&auto=format&fit=crop',
+    imagem: require('../assets/images/Sala C301.png')
   },
   {
     id: '4',
@@ -33,6 +33,6 @@ export const rooms = [
     capacidade: 8,
     periodo: 'Tarde',
     disponivel: true,
-    imagem: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1200&auto=format&fit=crop',
+    imagem: require('../assets/images/Sala D102.png')
   },
 ];
