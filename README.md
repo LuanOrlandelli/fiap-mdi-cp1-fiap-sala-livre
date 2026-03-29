@@ -55,15 +55,15 @@ Depois, com o aplicativo "Expo Go" já instalado no celular, abra a câmera e es
 
 ### 🖼️ Telas do aplicativo
 
-- Tela Inicial:
+####Tela Inicial:
 <img src="https://github.com/user-attachments/assets/573da3e7-44e3-42db-8087-6dd5a0f28daf" width="360">
 
 
-- Tela de Salas:
+####Tela de Salas:
 <img src="https://github.com/user-attachments/assets/66789451-9113-4c7b-989d-1b75864f504d" width="360">
 
 
-- Tela de Reserva:
+####Tela de Reserva:
 <img src="https://github.com/user-attachments/assets/37a025e5-c122-4163-9c71-36350866a8cb" width="360">
 
 
