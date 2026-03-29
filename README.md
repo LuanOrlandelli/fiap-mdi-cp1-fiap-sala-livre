@@ -1,50 +1,106 @@
-# Welcome to your Expo app 👋
+# 📱 FIAP Sala Livre
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 📌 Sobre o Projeto
 
-## Get started
+O **FIAP Sala Livre** é um aplicativo mobile desenvolvido com React Native (Expo) que permite aos alunos consultar salas disponíveis dentro da FIAP para estudo, reuniões e trabalhos em grupo.
 
-1. Install dependencies
+### 🎯 Problema que resolve
+Muitos alunos enfrentam dificuldade em encontrar salas livres para estudar ou realizar atividades em grupo dentro da instituição. O aplicativo centraliza essas informações, facilitando a organização e otimização dos espaços disponíveis.
 
-   ```bash
-   npm install
-   ```
+### 🏫 Operação da FIAP escolhida
+A operação escolhida foi a **gestão de espaços acadêmicos (salas de estudo)**, pois é uma necessidade comum entre os alunos e impacta diretamente na produtividade e experiência dentro da faculdade.
 
-2. Start the app
+### ⚙️ Funcionalidades implementadas
+- Listagem de salas disponíveis
+- Filtro de salas por período
+- Tela de detalhes da sala
+- Simulação de reserva de sala
+- Indicador de carregamento (loading)
+- Estado vazio quando não há resultados
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 👥 Integrantes do Grupo
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **Luan Orlandelli** - RM 554747  
+- **Arthur Bobadilla** - RM 555056  
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🚀 Como Rodar o Projeto
 
-When you're ready, run:
+### 📋 Pré-requisitos
+
+- Node.js (versão LTS recomendada)
+- npm ou yarn
+- Expo CLI (opcional)
+- Aplicativo Expo Go no celular
+
+### ▶️ Passo a passo
+
+Rode no terminal do seu computador:
 
 ```bash
-npm run reset-project
+git clone https://github.com/LuanOrlandelli/fiap-mdi-cp1-fiap-sala-livre.git
+cd fiap-mdi-cp1-fiap-sala-livre
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Depois, com o aplicativo "Expo Go" já instalado no celular, abra a câmera e escaneie o QR Code. 
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📸 Demonstração
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### 🖼️ Telas do aplicativo
 
-## Join the community
 
-Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### 🎥 Vídeo de demonstração
+
+
+
+---
+
+## 🧠 Decisões Técnicas
+
+### 📂 Estrutura do projeto
+
+O projeto foi estruturado utilizando o Expo Router, com organização baseada em rotas.
+
+### ⚛️ Hooks utilizados
+
+- useState → gerenciamento de estado  
+- useEffect → carregamento de dados  
+- useRouter → navegação  
+- useLocalSearchParams → parâmetros de rota  
+
+### 🧭 Navegação
+
+Utilização do Expo Router para navegação entre telas e passagem de parâmetros.
+
+---
+
+## 🚧 Próximos Passos
+
+- Integração com API real
+- Autenticação de usuários
+- Reserva real de salas
+- Histórico de reservas
+- Filtros avançados
+
+---
+
+## 📌 Tecnologias Utilizadas
+
+- React Native
+- Expo
+- Expo Router
+- TypeScript
+
+---
+
+## 💡 Considerações Finais
+
+Projeto desenvolvido com foco em aprendizado prático de desenvolvimento mobile.
