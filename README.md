@@ -55,11 +55,21 @@ Depois, com o aplicativo "Expo Go" já instalado no celular, abra a câmera e es
 
 ### 🖼️ Telas do aplicativo
 
+- Tela Inicial:
+![WhatsApp Image 2026-03-29 at 19 14 30](https://github.com/user-attachments/assets/573da3e7-44e3-42db-8087-6dd5a0f28daf)
 
 
-### 🎥 Vídeo de demonstração
+- Tela de Salas:
+![WhatsApp Image 2026-03-29 at 19 14 30 (1)](https://github.com/user-attachments/assets/66789451-9113-4c7b-989d-1b75864f504d)
 
 
+- Tela de Reserva:
+![WhatsApp Image 2026-03-29 at 19 14 30 (2)](https://github.com/user-attachments/assets/37a025e5-c122-4163-9c71-36350866a8cb)
+
+
+### 🎥 GIF de demonstração
+
+![GIF TELAS](https://github.com/user-attachments/assets/6c2ff048-9b2f-455b-bb00-be1ad12c38b2)
 
 ---
 
