@@ -1,4 +1,3 @@
-EmptyState:
 import { View, Text, StyleSheet } from 'react-native';
 
 type Props = {
